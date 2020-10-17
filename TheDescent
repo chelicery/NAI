@@ -1,0 +1,20 @@
+#Bartek Konarzewski 
+#https://www.codingame.com/ide/puzzle/the-descent
+#zadanie dotyczy zestrzelenia najwyższej wieży w każdej z pętli gry
+
+import sys
+import math
+
+
+highest = 0
+hindex = 0
+while True:
+    for i in range(8):
+        mountain_h = int(input())  # represents the height of one mountain.
+        if mountain_h > highest:
+            highest = mountain_h
+            hindex = i
+        
+
+    highest = 0
+    print(hindex)
