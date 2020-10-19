@@ -1,0 +1,40 @@
+#Bartek Konarzewski
+#https://www.codingame.com/ide/puzzle/credit-card-verifier-luhns-algorithm
+#Walidacja poprawności numeru karty bankomatowej za pomocą algorytmu luhnsa
+import sys
+import math
+
+def step3(n):
+    st = n[::-1]    
+    st = st[0::2]
+    sum = 0
+    for z in st:
+        sum += int(z)
+    return sum
+
+def decode(n):
+    st = str(n)        
+    st = st.replace(' ','')
+    sum = 0
+    sum3 = step3(st)
+    sum3 = step3(st)
+    st = st[::-1]  
+    st = st[1::2]
+    
+    for e in st:
+        i = int(e)*2
+        if(i>9):
+            sum += (i -9)
+        else:
+            sum+=i
+    
+    return sum+sum3
+
+
+n = int(input())
+c = n
+for i in range(n):
+    card = input()
+    condition = decode(card)%10==0
+    print("YES" if condition else "NO")
+
