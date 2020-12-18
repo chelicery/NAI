@@ -1,3 +1,10 @@
+#aut. Mateusz Konarzewski Bartek Konarzewski
+#Wykorzystanie odgległości euklidesowej i korelacji pearsona
+#w systemie rekomendacji filmów
+#aby uruchomić program wpisz w konsoli python compute_scores.py i postępuj zgodnie z informacjami z terminala
+
+
+
 import argparse
 import json
 import numpy as np
