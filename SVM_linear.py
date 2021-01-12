@@ -1,5 +1,12 @@
 #Bartek Konarzewski i Mateusz Konarzewski
-#Klasyfikator 
+#Klasyfikator na bazie support vector machine z biblioteki sklearn
+#Klasyfikator zbóż - klasyfikuje ziarna zbóż do jednej z 3 odmian na podstawie powierzchni(Areał i parametru P)
+#Klasyfikator Skóry - na podstawie informacji o kolorze fragmentu obrazu w formacie RGB ocenia czy
+# wskazany fragment jest ludzką skórą czy nie
+#Klasyfikator butelek - utworzony przez nas dataset z informacjami dotyczącymi 25 butelek po piwach różnych browarów
+# klasyfikator na podstawie informacji o stosunku wysokości do średnicy w najszerzym punkcie (h/d) i wagi butelki
+# klasyfikuje butelkę jaki zwrotna lub bezzwrotną
+#odpalany z konsoli >python SVM_linear.py
 
 # coding=utf-8
 import numpy as np
