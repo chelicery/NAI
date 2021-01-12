@@ -1,3 +1,4 @@
+# coding=utf-8
 #aut. Mateusz Konarzewski Bartek Konarzewski
 #Wykorzystanie odgległości euklidesowej i korelacji pearsona
 #w systemie rekomendacji filmów
