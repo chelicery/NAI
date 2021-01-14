@@ -20,6 +20,11 @@ Mi³os³aw_Pilzner          69.6                246          321          3.534482
 ¯ywiec_Porter             70.4                249          327          3.536931818 brown                  500            1
 Ksi¹¿êce_IPA              68.5                263          313          3.839416058 brown                  500            1
 Okocim_Jasne              69.3                249          311          3.593073593 brown                  500            1
+Dêbowe_mocne              68.5                255          334          3.722627737 brown                  500            1
+Okocim_Porter             68.6                249          313          3.629737609 brown                  500            1
+Kasztelan                   69                249          319          3.629737609 brown                  500            1
+Revolta_APA               66.9                250          261          3.623188405 brown                  500            0
+Revolta_Tropical          66.5                249          267          3.744360902 brown                  500            0
 Fortuna_Cz.                 70                245          324                  3.5 brown                  500            0
 Ksi¹¿êce                    68                262          322          3.852941176 brown                  500            0
 Mi³os³aw_NF               69.7                245          324          3.515064562 brown                  500            0
