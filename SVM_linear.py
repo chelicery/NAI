@@ -6,6 +6,8 @@
 #Klasyfikator butelek - utworzony przez nas dataset z informacjami dotyczącymi 25 butelek po piwach różnych browarów
 # klasyfikator na podstawie informacji o stosunku wysokości do średnicy w najszerzym punkcie (h/d) i wagi butelki
 # klasyfikuje butelkę jaki zwrotna lub bezzwrotną
+#dataset seeds: http://archive.ics.uci.edu/ml/machine-learning-databases/00236/seeds_dataset.txt
+#dataset skin: https://archive.ics.uci.edu/ml/machine-learning-databases/00229/Skin_NonSkin.txt
 #odpalany z konsoli >python SVM_linear.py
 
 # coding=utf-8
